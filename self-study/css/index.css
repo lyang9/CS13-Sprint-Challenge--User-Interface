@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+/* nav bar */
 header {
   display: flex;
   padding: 12px 0;
@@ -94,6 +95,7 @@ nav a:hover {
   color: grey;
 }
 
+/* index.html */
 .jumbo {
   margin: 35px 0;
 }
@@ -201,6 +203,39 @@ nav a:hover {
     padding-right: 0;
 }
 
+/* about.html */
+.about-container {
+  padding-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.about-cta {
+  width: 380px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted black;
+}
+
+.about-cta h2 {
+  padding-top: 10px;
+}
+
+.about-cta button {
+  background-color: white;
+  width: 120px;
+  height: 35px;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* footer */
 footer {
     width: 100%;
     background: black;
